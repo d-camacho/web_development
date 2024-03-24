@@ -3,24 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <title>Drew's Website</title>
+        <link rel="stylesheet" href="drew.css">
     </head>
     <body>
-        <h1>Welcome to Drewy's Page!</h1>
-        <img src="drew_kinder.jpg" alt="Drew Kinder" height="500">
-        <h2>Hi, my name is Drew! Thank you for visiting my page.</h2>
-        <section>
-            <p> This is where we can get to know each other. I'll tell a lot of stuff about me and then maybe, you can tell me things about you too!</p>
-            <h3>These are my Hobbies:</h3>
-            <ul>
-                <li><strong>Taekwondo</strong></li>
-                <p> Here I am getting ready to take my very first certification. I was a White Belt and testing for my Orange Belt.</p>
-                <video controls height="500px" loop>
-                    <source src="songahm1.mp4">
-                </video>
-                <li><strong>Drawing school buses</strong></li>
-                <li><strong>Playing with my phone</strong></li>
-            </ul>
-        </section>
-        
-    </body>
+        <header>
+            <h1>Welcome to Drewy's Page!</h1>
+            <nav class="nav">
+                <a href="drew.html">Home</a> &nbsp;
+                <a href="#hobbies">My Hobbies</a> &nbsp;
+                <a href="gallery.html">My Photo Gallery</a>
+                <p></p>
+            </nav>
+            <img src="drew_kinder.jpg" alt="Drew Kinder" height="500" class="main_img">
+        </header> 
+        <main>
+            <div>
+                <h2>Hi, my name is Drew Anthony Camacho! Thank you for visiting my page.</h2>            
+                <p> This is where we can get to know each other. I'll tell you a lot of stuff about me and then maybe, you can tell me things about you too!</p>
+            </div>
+            <section id="hobbies">
+                <div >
+                    <h2>These are my Hobbies:</h2>
+                </div>
+                <div>
+                    <h4><strong>Taekwondo</strong></h4>
+                    <p>Here I am getting ready to take my very first certification test. I was a White Belt and testing for my Orange Belt. </p>
+                    <video controls height="500" src="songahm1.mp4" loop></video>                              
+                </div>
+                <div>
+                    <h4><strong>Drawing school buses</strong></h4>
+                </div>
+                <div>
+                    <h4><strong>Playing with my phone</strong></h4>
+                </div>
+            </section>
+        </main>
+    </body>  
 </html>

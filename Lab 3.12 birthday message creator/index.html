@@ -20,27 +20,28 @@
       <div>
          <label for="dateToSend">Date to send?</label>
          <!-- TODO: Add date widget -->
-         <input type="date">
+         <input type="date" id="dateToSend" name="dateToSend">
       </div>
       <div>
          <label for="messageColor">Message color?</label>
          <!-- TODO: Add color widget -->
-         <input type="color">
+         <input type="color" name="messageColor" id="messageColor">
       </div>
       <div>
          <label for="numBlinks">Number of blinks?</label>
          <!-- TODO: Add number widget -->
-         <input type="number" name="numBlinks" id="0" min="0" max="10">
+         <input type="number" name="numBlinks" id="numBlinks" value="0" min="0" max="10">
       </div>
       <div>
          <label for="musicVolume">Music volume?</label>
          <!-- TODO: Add range widget -->
-         <input type="range" default="20" min="0" max="50">
+         <input type="range" id="musicVolume" name="musicVolume" value="20" min="0" max="50">
       </div>
      
      <!-- TODO: Add submit button -->
       <div>
-         <input type="submit">
+         <button type="submit" name="bdaymessage">Send Birthday Message</button>
+         
       </div>
    </form>
    

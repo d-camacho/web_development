@@ -1,0 +1,27 @@
+h1 {
+    background-color: darkgreen;
+    color:white;
+    font-weight:bold;
+    font-size:80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    text-shadow: 0 0 10px #FF0000, 0 0 20px #0000FF;
+}
+
+.main_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.nav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: aquamarine;
+}
+.floatright {
+    float:right;
+}

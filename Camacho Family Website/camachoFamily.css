@@ -5,3 +5,15 @@ h1 {
     padding:50px;
     border: 5px solid black;
 }
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+
+}
+nav li {
+    background-color: burlywood;
+    text-align: center;
+    flex-grow: 1;
+}
